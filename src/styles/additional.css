@@ -1,0 +1,35 @@
+/* Additional utility classes to support component markup */
+
+/* Container and spacing */
+.max-w-5xl { max-width: 80rem; }
+.max-w-7xl { max-width: 80rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+
+/* Grid utilities */
+.grid { display: grid; }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.gap-6 { gap: 1.5rem; }
+
+/* Responsive utilities for >= 768px */
+@media (min-width: 768px) {
+  .md\:flex-row { flex-direction: row; }
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md\:flex { display: flex; }
+  .md\:hidden { display: none !important; }
+  .md\:text-6xl { font-size: 3.75rem; line-height: 1; }
+  .md\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+  .md\:py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+}
+
+/* Typography */
+.text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.font-bold { font-weight: 700; }
+.font-medium { font-weight: 500; }
+
+/* Section helper to add vertical spacing and scroll offset */
+.section { padding: 4rem 0; scroll-margin-top: 80px; }
+

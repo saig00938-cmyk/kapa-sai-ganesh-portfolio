@@ -1,0 +1,6 @@
+/* Additional component specific styles */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
